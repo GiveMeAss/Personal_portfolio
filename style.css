@@ -1,0 +1,182 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap');
+/* About Me body */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    margin: 0rem;
+    padding:0rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   animation: animate 16s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: linear-gradient(rgba(172, 161, 161, 0.50),rgba(172, 161, 161, 0.50)), url(images/pexels-photo-262367.jpeg);
+    }
+    33%{
+        background-image: linear-gradient(rgba(172, 161, 161, 0.50),rgba(172, 161, 161, 0.50)), url(images/image2.jpg);
+    }
+    66%{
+        background-image: linear-gradient(rgba(172, 161, 161, 0.50),rgba(172, 161, 161, 0.50)), url(images/image4.jpg);
+    }
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.header-text h1{
+    font-size: 3rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Rowdies', cursive;
+    font-weight: 400;
+    border-left: 10px solid rgb(255,255,255);
+    border-bottom: 5px solid rgb(255,255,255);
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.header-text h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px !important;
+}
+.header-text h1:hover{
+    border-right: 10px solid rgb(255,255,255);
+    border-top: 5px solid rgb(255,255,255);
+    border-bottom: transparent;
+    border-left: transparent;
+}
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}  
+.nav-container{
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 30px;
+}
+.nav-container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+}
+.nav-container ul li img{
+    margin: 0px 20px;
+    width: 70%;
+}
+.nav-container ul li p{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0px 20px;
+    transition: 0.2s ease;
+}
+.nav-container ul li a{
+    text-decoration: none;
+}
+.nav-container ul li p:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+main{
+    min-height: 1069px; 
+    background-image:linear-gradient(rgba(172, 161, 161, 0.70),rgba(172, 161, 161, 0.70)), url(images/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .about-section{
+    padding-top: 5rem;
+}
+main .about-section .about-header{
+    display: flex;
+    justify-content: center;
+}
+main .about-section .about-header h1{
+    font-size: 2rem;
+    border: 2px solid black;
+    padding: 15px;
+    cursor:pointer;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+}
+main .about-section .about-nav{
+    margin-top: 4rem;
+}
+main .about-section .about-nav ul{
+    display: flex;
+    justify-content: center;
+}
+main .about-section .about-nav ul li{
+    list-style: none;
+}
+main .about-section .about-nav ul li a{
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+}
+main .about-section .about-nav ul li p{
+    margin: 0px 1rem;
+    padding: 15px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(70, 67, 67);
+}
+main .about-section .about-nav ul li p:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(70, 67, 67);
+}
+.about-nav .active{
+    background-color: white !important;
+    color: black !important;
+    border: 3px solid rgb(70, 67, 67) !important;
+}
+#abt-bdy2{
+    display: none;
+}
+#abt-bdy3{
+    display: none;
+}
+.display-none{
+    display: none;
+}
+.about-body .active-body{
+    display: flex;
+    margin: 2rem 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.abt-bdy-hdr{
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 2rem;
+}
+.abt-bdy-main{
+    font-family: 'Sacramento' !important;
+    margin: 4rem;
+    font-size: 2rem;
+    text-align: center;
+} 
+.main-nav-rest{
+    display: flex !important;
+    margin: 2rem 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
