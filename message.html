@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   	<head>
+        <title>Direct Message</title>
+        <!-- font Awesome Social -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Styling For this page -->
+        <link rel="stylesheet" href="message.css">
+   	</head>
+   	<body>
+        <section id="form" class="form-section">
+            <form action="message.php" method="POST">   
+                <div class="form">
+                    <h2>Connect Me Directly:</h2>
+                    <div class="tags name">
+                        <label for="name">Name:</label>
+                        <div class="input"><input type="text" id="name" name="name" placeholder="Your name..." required></div>
+                    </div>
+                    <div class="tags email">
+                        <label for="email">E-mail:</label>
+                        <div class="input"><input type="text" id="email" name="email" placeholder="Your Email id..." required></div>
+                    </div>
+                    <div class="tags number">
+                        <label for="number">Contact No.</label>
+                        <div class="input"><input type="number" id="number" name="number" placeholder="Your ph number..." required></div>
+                    </div>
+                    <div class="tags suggestion">
+                        <label for="suggestion">Suggestion:</label>
+                        <div class="su-text"><textarea id="suggestion" name="suggestion" placeholder="Write your message here..." required></textarea></div>
+                    </div>
+                    <div class="button">
+                        <button>Send</button>
+                    </div>
+                    <p>You can also connect me on <span><a href="#footer">Social Network </a></span><br> or can send me an <span><a href="mailto: shreyandey5@gmail.com">E-mail</a></span></p>
+                </div>
+            </form>
+        </section>
+        <footer id="footer">
+            <div class="footer-part">
+                <div class="my-image">
+                    <a href="index.html"><img src="images/image1.jpg" alt="my-image" style="width: 10%; height: auto; border-radius: 50%;"></a>
+                </div>
+                <div class="Social-Media-Links">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100004186725612" class="fa fa-facebook"></a></li>
+                        <li><a href="https://www.instagram.com/k_jane_ke/?hl=en" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/shreyan-dey-4b0026159/" class="fa fa-linkedin"></a></li>
+                        <li><a href="mailto: shreyandey5@gmail.com" class="fa fa-google"></a></li>
+                    </ul>
+                </div>
+                <div class="connected">
+                    <h1>Keep Connected</h1>
+                </div>
+                <div class="top">
+                    <p><a href="index.html" style="text-decoration: none; color: black;">Back to main page</a><span><br>&copy;Shreyan Dey</span></p>
+                </div>
+            </div>
+        </footer>
+	</body>
+</html>
